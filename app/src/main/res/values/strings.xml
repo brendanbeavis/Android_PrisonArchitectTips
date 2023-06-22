@@ -1,0 +1,311 @@
+<resources>
+    <string name="app_name">Prison Architect Guide</string>
+    <string name="banner_ad_unit_idTEST">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_idPROD">ca-app-pub-1793856388987151/4313587143</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1793856388987151/4313587143</string>
+    <string name="title_category_detail">Category Detail</string>
+    <string-array name="Categories" >
+        <item>Rooms</item>
+        <item>Guards</item>
+        <item>Staff</item>
+        <item>Prisoners</item>
+        <item>Prisoner_Needs</item>
+        <item>Riots</item>
+        <item>Escapes</item>
+        <item>Tips_and_Tricks</item>
+        <item>About</item>
+    </string-array>
+
+<!-- &lt;font color="red">
+     lt;br>
+     &lt;/b>
+-->
+ <string name="Rooms">&lt;b>Kitchen&lt;/b>&lt;br>
+    The kitchen is a critical room, required to provide food to canteens.
+    The physical room size is limited only by its contents, to meet the needs of your prisoners and the set food quality and quantity.
+    &lt;br>&lt;br>
+    &lt;b>Prisoners fed per Cooker&lt;/b>&lt;br>
+    Low Quantity 30&lt;br>
+    Medium Quantity 20&lt;br>
+    High Quantity 11
+    &lt;br>&lt;br>
+    &lt;b>Fridges per Cooker&lt;/b>&lt;br>
+    Low Variety 1.3 per cooker&lt;br>
+    Medium Variety 1.7 per cooker&lt;br>
+    High Variety 2 per cooker
+    &lt;br>&lt;br>
+    &lt;b>Sinks&lt;/b>&lt;br>
+    Approx 1 - 3 sinks are sufficient to clean used trays. The time between meal allotments in the regime can alter this value.
+    &lt;br>&lt;br>
+
+    &lt;b>Canteen&lt;/b>&lt;br>
+    Each prisoner should have a bench and table position at which to eat with a bench able to seat 4 prisoners total and a table 4 down each side [8 total]. The canteen also needs serving tables with each table able to hold enough food for 20 prisoners.
+    The addition of some entertainment items can maintain order, consider TV\'s, phone booths, and even showers or toilets.
+    &lt;br>&lt;br>
+
+    &lt;b>Yard&lt;/b>&lt;br>
+    The yard is most useful where control of prisoners is necessary. This is generally a good area of gyms and phone booths, however consider showers or toilets also.
+    Any outdoor area within 15 meters of your prisons outer wall is vulnerable to such contraband throw-ins so if possible such areas should be used for indoor or staff-only areas.
+    &lt;br>&lt;br>
+
+    &lt;b>Libraries&lt;/b>&lt;br>
+    The room must be larger than 5X5, and contain at least one library shelf (1X3) and one library desk(1X3).
+    Prisoners can work in libraries.
+    &lt;br>&lt;br>
+
+    &lt;b>Chapel&lt;/b>&lt;br>
+    The chapel needs to be larger than 6X6 and contain an altar (3X2), prayer mats (1X1), and pews (4X1).
+    Helps meet prisoners sprituality need.
+    &lt;br>&lt;br>
+
+    &lt;b>Laundry&lt;/b>&lt;br>
+    Each prisoner assigned to a laundry requires 4m2 to work. Ideal sizing of a laundry depends on the number of prisoners it needs to service. Consider multiple laundries over a single large one to reduce travel times.
+    A single laundry machine (1 tile), two ironing boards (3 tiles each), and four baskets (1 tile each and mobile) can cater for up to 64 prisoners.
+    &lt;br>&lt;br>
+
+    &lt;b>Cleaning cupboard&lt;/b>&lt;br>
+    Like the laundry, each prisoner requires 4m2 with a maximum of 20 achieved when the room is 80m2 large.
+    A dog patrol on the exit will prevent poisons from entering your prison and spot most clubs. Metal detectors would serve no function as none of the contraband is made of metal.
+    &lt;br>&lt;br>
+
+    &lt;b>Staffroom&lt;/b>&lt;br>
+    The staff room must be 4X4 and contain at least 1 double sofa and one drink machine. Staff will not use these objects however. There is no need to build a staff room larger than the minimum size.
+    The main consideration when placing a staff room should be its ease of access for the staff
+    &lt;br>&lt;br>
+
+    &lt;b>Kennel&lt;/b>&lt;br>
+    Kennels only require a 5X5 area.
+    Dog handlers have fairly short duty times so expect up to 1/3rd of your dog teams to be resting at any given point. Consider, if you have 5 dog cages, you will need approx 15 handlers to keep the dogs active.
+    Kennels don\'t generate any contraband.
+    &lt;br>&lt;br>
+
+    &lt;b>Armoury&lt;/b>&lt;br>
+    Only one armed guard can be hired for each guard locker built.
+    The table and rack combination takes up a total of 6m2 and each guard locker a single 1m2 square so even a small 5X5 room can support a significant number of armed guards.
+    The armoury spawns some of the worst contraband in the game including shotguns, pistols, and tazers. Keep the armory well away from prisoners and behind numerous doors.
+    &lt;br>&lt;br>
+
+    &lt;b>Infirmary&lt;/b>&lt;br>
+    10-15 medical beds should also be enough to keep a population of 300-500 prisoners services in a well-run prison,
+    For most prisons this also allows a full class to enroll in the \'Pharmacological Treatment of Drug Addiction\' program which helps reduce prisoners \'Drug\' need.
+    &lt;br>&lt;br>
+
+    &lt;b>Morgue&lt;/b>&lt;br>
+    Two to three slabs should be enough to cater for even a large prison. There is no need to make the morgue any larger than the slabs that it contains.
+    &lt;br>&lt;br>
+
+    &lt;b>Office&lt;/b>&lt;br>
+    Offices have no need to be larger than their minimum size.
+    With the exception of psychologists and foreman none of these staff need to ever enter the actual prison so their offices can be safely positioned outside the wall to keep the expensive and easily killed staff away from possible danger.
+    &lt;br>&lt;br>
+
+    &lt;b>Parole Rooms&lt;/b>&lt;br>
+    The parole room needs only a single visitors table and be larger than 5X5.
+    &lt;br>&lt;br>
+
+    &lt;b>Reception&lt;/b>&lt;br>
+    The reception requires a desk, a table, and a chair to operate and has no size restrictions.
+    It is a good method to help reduce contraband entering the prison, but increases guard effort.
+    &lt;br>&lt;br>
+
+    &lt;b>Mail Room&lt;/b>&lt;br>
+    The room must contain sorting tables which will determine the room\'s capacity to hold unsorted mail and regular tables which will determine the capacity to hold mail satchels.
+    &lt;br>&lt;br>
+
+    &lt;b>Visitation Rooms&lt;/b>&lt;br>
+    The visitation room can be any size however they must contain either visitor tables or visitor booths. Each of these items is capable of handling one prisoner and their family at a time.
+    Generally no more than 3 tables is needed.
+    &lt;br>&lt;br>
+
+    &lt;b>Shop&lt;/b>&lt;br>
+    The shop functions with the prisoner cash system to provide prisoner with extra items in return for a small amount of cash. The room requires a 4x4 indoor space with shop shelving to store sellable items.
+    It also requires a shop table to unpack items on, and a shop front to actually sell the items though as prisoners will not enter the shop unless directed to work there.
+    &lt;br>&lt;br>
+
+    &lt;b>Other Rooms&lt;/b>&lt;br>
+    As well as all the indoors rooms Deliveries, Garbage, and Storage also need to be taken into account during prison design.
+    Deliveries are quite simply where everything enters your prison and where the trucks unload goods including food and construction equipment, prisoners, and anything else.
+    Garbage is the reverse and where your prisons rubbish is stored while waiting to be exported via truck.
+    Both of these rooms should be placed near to the road so as to avoid bottlenecks and, as they can contain random contraband in the imported goods as well as easy access to the road area they should not be accessible for prisoners.Storage areas should be treated the same way but can be placed further from the road. Items will spawn in the storage area before being delivered via truck if there is free space, and disassembled items will be taken to the storage area.
+</string>
+<string name="Guards">&lt;b>Guards&lt;/b>&lt;br>
+    The number of guards you require is heavily dependent on the performance of your prison, it\'s design, and the type of prisoners it holds.
+    Generally you will want at least a single guard assigned to or patrolling each area/room at all times.
+    As a rough idea, the guard count will often be 50% of your prisoner count. Also account for having 10% of guards resting at any time.
+    You also need several guards free to perform other daily functions.
+    &lt;br>&lt;br>
+
+    &lt;b>Armed Guards&lt;/b>&lt;br>
+    The upgraded form of the regular guard is the Armed Guard. Armed guards carry shotguns capable of instantly killing violent prisoners and ending riots in the area they shoot but lose the ability to perform any other guard duties.
+    Armed guards are the best way of suppressing high danger inmates as they suppress every prisoner within a large radius of them at all times, with the exception of prisoners possessing the ‘Fearless’ trait. Be careful however as armed guards add to the danger level of all prisoners in your prison so any inmates not suppressed by their presence are more likely to riot. Armed guards can be upgraded with body armour like regular guards, however they do not need to attend a class to equip tazers needing only a separate \'Tazers\' research
+
+    &lt;br>&lt;br>
+
+    &lt;b>Dog Handlers&lt;/b>&lt;br>
+    Dog Patrols act as mobile contraband detectors. The dog is able to detect any contraband with the tag \'smelly\' as well as tunnels directly below them. The dog has a smell range of 3m in any direction and will automatically smell any object to enter that radius while on patrol. While a dog is smelling a brown circle will appear over the object, and if anything is detected the dog handler will search the item or prisoner.
+    so detect tunnel digging directly below their 3m smell radius and indicate it with a tunnel warning and a yellow flag.
+    &lt;br>&lt;br>
+
+    &lt;b>Sniper Guards&lt;/b>&lt;br>
+    Snipers are a type of guard exclusively deployed within guard towers to provide overwatch. They are the only guards that can man guard towers as well as being the only guards without jail keys.
+    Snipers are the most expensive type of guard in the game.
+    &lt;br>&lt;br>
+
+    &lt;b>Riot Guards&lt;/b>&lt;br>
+    Riot Guards act as a melee focused version of the armed guard. They have superior armour and are able to take on many times their number in prisoners. Riot guards are called in via the emergencies tab at a cost of $100 and increase the danger of all prisoners in the same way as armed guards.
+
+</string>
+<string name="Staff">&lt;b>Workers&lt;/b>&lt;br>A Workman is a basic staff member responsible for constructing various objects and materials in your prison. At the start of the game, along with some basic resources, you are given eight workmen. Workmen cannot carry Jail Keys, and as such, guards are needed to open the routes towards Jail Door protected areas.
+    &lt;br>&lt;br>
+    &lt;b>Cooks&lt;/b>&lt;br>A Cook is a staff of the prison which main task is to cook food for the Prisoners using Ingredients and a Cooker, and wash dirty Food Trays after each meal in a Sink. Each cook will use only one cooker to prepare the meal.
+    &lt;br>&lt;br>
+    &lt;b>Gardeners&lt;/b>&lt;br>A Gardener is a basic staff of the prison which keeps the outdoor areas tidy and is in charge of the Forestry. The Gardener is researched by the Foreman in Bureaucracy
+    &lt;br>&lt;br>
+    &lt;b>Doctors&lt;/b>&lt;br>A Doctor is a staff of the prison in charge of healing injured prisoners and staff. Doctors will stay in the nearest infirmary, if present. However, doctors can be sent to an injured person by selecting the doctor, then right clicking the injured person. Alternatively, an injured prisoner can be taken to the infirmary by a guard, where a doctor will heal them. Doctors will also go to heal any prisoner or staff within 10 blocks of them. Doctors prioritize healing Guards over Prisoners.
+    &lt;br>&lt;br>
+    &lt;b>Warden&lt;/b>&lt;br>The warden is the head official of the prison and as such one of the most essential members of staff in Prison Architect. The warden is required to unlock all other main staff types in the Bureaucracy. The warden\'s main objective is to unlock the Bureaucracy and Regime tab in the Reports Menu.
+    &lt;br>&lt;br>
+    &lt;b>Accountant&lt;/b>&lt;br>The Accountant is unlocked by researching Finance in the Bureaucracy menu. The Accountant is part of the Administrators group and compiles the financial Reports. The accountant allows you to spend more money per day on staff, materials, and objects, as long as your current funds allow it.
+    &lt;br>&lt;br>
+    &lt;b>Chief of Security&lt;/b>&lt;br>The Chief of Security will allow you to research further in the Security Section of Bureaucracy. The Chief will let you research a variety of security upgrades.
+    &lt;br>&lt;br>
+    &lt;b>Psychologist&lt;/b>&lt;br>The Psychologist will allow you to see the needs of each prisoner while hovering over them, as well as see the prison\'s needs via the reports menu. The Psychologist needs an Office and can conduct behavioral lessons to your most angry prisoners.
+    &lt;br>&lt;br>
+    &lt;b>Foreman&lt;/b>&lt;br>The Foreman is an administration staff of the prison which allows to research Prison Labour, the Clone tool, Cleaning and Grounds Keeping. The Foreman is also required to train prisoners so that they can work in the Workshop.
+    &lt;br>&lt;br>
+    &lt;b>Lawyer&lt;/b>&lt;br>Lawyers must be unlocked in bureaucracy before they can be hired. After you hire them they will need an office to work in and they give you some more research options. Additional lawyers allow you to research multiple things at once but only one is required to stay on staff after the research is complete.
+
+</string>
+ <string name="Prisoners">&lt;b>Prisoners&lt;/b> are individuals sent to correctional facilities to carry out a sentence as punishment for their crimes, they are the core element of any prison, providing the money to keep your prison afloat and reacting to the structure and Regime of your prison.&lt;br>
+    Prisoners come in multiple shapes and sizes - their physical size has no relation to their traits. There are also female prisoners that come with the female gender prison and have specific needs for child bearing.&lt;br>
+    &lt;br>
+
+    &lt;b>Security Levels&lt;/b>&lt;br>
+    &lt;b>Minimum&lt;/b> Security prisoners generally have short sentences and will not be with you very long. Many of them leave your prison in a matter of days. Minimum security prisoners tend to offer less headaches, escape less often and are more easily kept content than the higher security prisoners. They will still attempt to flee when a clear path is available. Minimum security prisoners will make use of contraband thrown over the walls. When Minimum security prisoners arrive, you receive a $300 grant.&lt;br>
+    &lt;b>Normal&lt;/b> security prisoners have medium length sentences and will therefore be with you for a reasonable amount of time. Normal Security prisoners may attempt to escape occasionally. Normal Security prisoners are more likely to be involved in a riot, are highly active with contraband, and will flee whenever the opportunity rises. Normal Security prisoners will make use of contraband thrown over the walls. When Normal Security prisoners arrive, you receive a $500 grant.&lt;br>
+    &lt;b>Maximum&lt;/b> Security prisoners tend to have unreasonably long sentences that last far beyond the lifespan of a normal human being. They will however not die in your prison unless they are murdered, so they will be with you almost forever. Maximum Security prisoners become disgruntled extremely fast, start riots very fast, and are extremely prone to escaping. They will obtain any and all contraband they can, and flee as soon as they can. Maximum security prisoners will make use of contraband thrown over the walls. When Maximum Security prisoners arrive, you receive a $1000 grant.&lt;br>
+    &lt;b>Death Row&lt;/b> prisoners have been sentenced to execution by electric chair. They wear black clothes and are in permanent lockdown (don\'t leave their cells) except to attend appeal meetings and visitation. Given their impending death, these in-mates are usually reckless and do not care about the consequences. Your prison will only accept Death Row in-mates if you have designated "Death Row only" cells in your prison. You will want to wait until they are below the legal clemency chance to execute, or you may be fined if they are subsequently found not guilty. When Death Row prisoners arrive, you receive a $2,500 grant.&lt;br>
+    &lt;br>
+
+    &lt;b>Prisoner Traits/Reputations&lt;/b>&lt;br>
+    Prisoners carry traits which effect their actions and response to day to day prison life. These can effect a prisoners strength, volatility, speed etc.&lt;br>
+    Reputations are visible in the "Character" tab of their rapsheet. Upon arrival to a prison, 50% of prisoners will not have a reputation visible, and must be found using an informant. Some prisoners will have a higher grade of reputation, e.g. "Extremely Strong" and "Extremely Volatile".
+    A very dangerous (and rather rare) prisoner would have some of the several reputations listed above, and is known as a "Legendary Prisoner". It would be smart to have them in a safe place if you care about them. If Gangs are enabled, when you receive a Legendary Prisoner he may also be a Gang Leader.
+
+ </string>
+<string name="Prisoner_Needs">&lt;b>Needs&lt;/b> illustrate what a prisoner or prisoners need in order to behave, not try to escape, and be happy. A &lt;b>Psychologist&lt;/b> is required to access this information.&lt;br>
+    There are two types of Needs:&lt;br> a) the Needs tab which can be found under Reports; and a small list which can by found by hovering with a mouse over a prisoner.&lt;br> b) The Needs tab shows a bar chart that combines every prisoner by their need.
+    &lt;br>Each bar has following colours:&lt;br>
+    &lt;font color="red">Red&lt;/font>, &lt;font color="#FFA500">Orange&lt;/font>, &lt;font color="#FFD000">Yellow&lt;/font>, &lt;font color="Green">Green&lt;/font> and &lt;font color="Blue">Blue&lt;/font>&lt;br>
+    Prisoners with orange or red needs will increase a prison\'s danger level, and may incite riots.&lt;br>
+    Some prisoners will have the need for Alcohol and Drugs. The need can be lessened (but not completely removed) by successfully completing the alcoholics group therapy or pharmaceutical treatment of drug addiction program respectively.
+    Only a few prisoners will have the trait to make them need Spirituality or Literacy.
+ </string>
+ <string name="Riots">A &lt;b>Riot&lt;/b> is a loss of control of a number of prisoners simultaneously, which results in chaos, brawling, destruction of property and death.&lt;br>
+    Riots may involve weapons stolen from rooms like Kitchens, Armories and Workshops or smuggled into the prison as contraband. &lt;br>
+    Having an Uncontrollable Riot with many prisoners escaping or dying will result in a loss.&lt;br>
+    &lt;br>
+    &lt;b>Starting a Riot&lt;/b>&lt;br>
+    A Riot usually starts because one or multiple prisoner Needs are high. Needs are prioritized, and high priority needs will cause riots quicker than those of a lower priority. An example of this is food and sleep being higher priority than comfort or recreation. The most common causes for a Riot are hunger, clothing and hygiene needs not being satisfied.&lt;br>
+    &lt;br>
+    &lt;b>Damages&lt;/b>&lt;br>
+    Prisoners who have lighters may also choose to set the prison on fire. Most dangerous prisoners will try to break into the armory, and getting handguns or shotguns from there.&lt;br>
+    &lt;br>
+
+    &lt;b>Recovery&lt;/b>&lt;br>
+    Retaking rooms can be achieved when Riot Police or Armed Guard are sent to neutralize all prisoners who are rioting as these are the only units who can enter riot areas.
+    Putting the entire prison on Lock down may help, though prisoners who steal Keys from downed guards will be able to unlock doors. If the riot is in only one part of the prison, using Remote Access can lock down that area without affecting other areas.
+ </string>
+<string name="Escapes">"A good way to stop &lt;b>escaping prisoners&lt;/b> is fencing. Since you can\'t build in the road, and blocking the deliveries zone will stop prisoners from getting in, use a staff door and leave the deliveries zone out. Or consider an airlock of road gates.
+    Dogs run much faster than prisoners do. Having a dog trainer on patrol near potential escape routes (i.e. the road) makes it much more difficult for prisoners to run to freedom.&lt;br>
+    If prisoners are trying to escape, put armed guards at the exits of your prison.&lt;br>
+    Perimeter walls may be expensive and take a long time to build but they\'re a formidable barrier for prisoners attempting to tunnel out.
+</string>
+<string name="Tips_and_Tricks">
+    &lt;b>Needs&lt;/b>&lt;br>
+    A good way to lower the recreation need is put a TV in the cell.
+    Freetime can lower many needs.
+    Visitation isn\'t really needed, as prisoners can just use the phone booth. Note that having a Phone Tap is a good idea, just in case your inmates arrange contraband deliveries.
+    Put objects that lower needs in the Yard. Phone booths and TVs are good ones.
+    Having higher quality meals can improve standards. This can be changed in the policy menu.
+    Even without Freetime, you can still satisfy your inmates\' needs by placing toilets, TVs, showers, and other objects in the canteen for prisoners to use after their meal. (By having showers in the canteen, you do not need to have a separate shower time in your regime, and an additional hour or two can be used for prisoners to do whatever they need to do)
+
+    &lt;br>&lt;br>
+    &lt;b>Rooms&lt;/b>&lt;br>
+    The Kitchen should have staff only doors as their entrance.  This prevents prisoners from getting contraband. This doesn\'t apply if prisoners are working in the kitchen. If this is the case, place a metal detector at the door with a guard stationed nearby, because even minimum security inmates will attempt to smuggle out contraband.
+    As of Alpha 16, Solitary rooms do not require a Solitary Door or any size so the minimal requirement to build a solitary is 3X3.
+    The Kitchen and Canteen should be close to each other, this reduces the time for cooks to place food in the serving tables.
+    A good object to put in the Yard is a phone booth to reduce the needs for family and possibility of rioting.
+    Building multiple Workshops is inefficient unless they are adjacent to each other. The prisoners will walk from workshop to workshop.
+    Workshops and kitchens should be placed close to Deliveries.
+    The bigger the Workshop, the more prisoners working. The maximum prisoner number that can work in a Workshop is 20. To get 20 prisoners to work in a Workshop, the room size has to be 240 (24x10 or 20x12 for example).
+    It is recommended to have your Workshop adjacent or close to Deliveries. This is because the sheet metal required is delivered there and where your prisoners (or if Deliveries is set to staff only, your workmen) will collect it from.
+    Workshops overflowing with Boards and Logs will cause the prisoners to mope about doing nothing. Sell excess Boards manually using the sell object tool to create demand and your prisoners will start sawing logs again.
+    The same goes for the Forestry, if there are too many logs in the workshop, trees will still be cut down but logs will stay in the Forestry instead of being taken to the workshop. Sell excess Boards, the prisoners will cut new ones and the problem will solve itself.
+    Staff rooms work best in the center of the prison so there is less of a distance for staff members to travel in order to reach it.
+    A good idea is to make the staff who wish to go to the Staff room walk through an Infirmary. That way, injured guards (or other staff members) can be healed on the way to the Staff room.
+    Laundry rooms are most efficient near your cell blocks. That way, there\'s less distance for your prisoners to travel between the two buildings.
+    Consider using holding rooms to hold prisoners in mass for great profit, the only downside is that prisoners will crave Privacy. However this is not much of a problem if you serve their other needs and you will find yourself running a profitable prison without having individual cells.
+    Placing Solitary Doors in the entrances of Armouries decreases the chance of prisoners stealing guns during riots as it is more durable than any doors in the game.
+    If you have injured prisoners piling up in your Infirmary who are waiting to go into Solitary, sometimes the Doctors won\'t heal them unless they are unconscious, and the Guards won\'t take them to Solitary. Try unassigning your Solitary cells and reassigning them. The Guards will come get the prisoners and bring them to the new Solitary. Then the Doctors can go heal them in their Solitary cells. (Even better: the Paramedics carry jail keys, so are able to get into Solitary cells without waiting for Guards to let them in!)
+    Built some nice Dormitories, but now they are "too good" for your prisoners, so they are clogging up your Holding Cells? But are their needs not met in the Holding Cells, otherwise? Add a bench and turn those unused Dormitories into Holding Cells!
+
+    &lt;br>&lt;br>
+    &lt;b>Secuirty&lt;/b>&lt;br>
+    The more guards you hire, the higher security your prison will have against dangerous prisoners.
+    Ordering your guards to patrol in cell blocks by the cells will reduce Prisoner\'s danger rate and will help prisoners to not try to dig a tunnel out of their cell.
+    A good way to prevent fights in the showers is to put a shower in every cell, so the prisoners can take a shower during Freetime and Lockup (you should also add a drain under the shower head).
+    Every room except the Solitary, Execution, Morgue and Storage needs to have at least one guard stationed in it. If the room is behind staff only doors or better and is marked staff only in the Deployment screen, it is not quite as important, but still recommended.
+    Riot Guards may be effective and more strong against prisoner\'s attacks, but they will increase the danger level even if they do nothing.
+    Make sure to add a Guard on any infirmary only if there are usual fights, because when Prisoners go to infirmary, they may attack doctors.
+    Position your Visitation Room carefully. Keep it away from the prison population and in a secure wing like where your offices are, anything which is behind a few jail doors to make it harder for angry inmates to reach. You don\'t want to be responsible for the deaths of visitors due to an unguarded and vulnerable room. Also add guard dogs outside visitation so contraband does not get into the prison through visitors.
+    Build your Armoury in a secure place. If the prisoners are rioting or are trying to escape, they will try to break into the Armoury room, so they can steal shotguns, pistols and batons from there.
+    Armed guards will fight with the inmates using the fists, and will use the shotguns only if their lives are in danger (they are highly injured, or the inmates have dangerous weapons). After you hired at least one armed guard, you can press the "Free-Fire" button in the bottom-right corner, and they will start using the shotguns every possible time for attacks.
+    If you have armed guards on patrol, every prisoner they pass will be temporarily suppressed and will be less likely to cause trouble. You can see how many are suppressed in the danger status bar. However, armed guards also slightly increase the danger level, so it\'s a careful balance.
+    If you have Dog Handlers on patrol, every prisoner they pass will be sniffed by the dog and if they have drugs, poison, or any other smelly stuff, they will be discovered and searched.
+    The Tazer rollout in Bureaucracy will make your guards more expensive, but is very valuable in case of a riot. Every single guard will be able to knock out one prisoner instantly, making it much more difficult for the prisoners to outnumber the guards. You can also use the fact that guards instantly appear where you click when you hire them to your advantage and have them instantly taze any escaping prisoners by simply hiring a new guard right on top of the prisoner (As of alpha 25 this trick no longer works as guards must pass taser certificate program before getting tasers).
+    The body armor also makes your guards more expensive, but gives them better chances in combat with prisoners. Without body armor, having less than 1 guard to every attacking prisoner is very risky and likely to fail. With body armor, 2 guards together can usually take 3 attacking prisoners without too much trouble (meaning a riot of 30 prisoners only needs 20-25 guards to contain it, rather than 30 or more).
+    Combining both the Tazers and the body armour makes your guards extremely formidable. Riots of 50 prisoners could feasibly be stopped by only 20 guards.
+    The entrance to your canteen is a great place to put metal detectors, as prisoners will be forced to walk through them multiple times a day, twice for each meal.
+    It may seem to make sense to overpopulate your prison with armed guards, but if your prisoners are constantly under Suppression because there are armed guards everywhere they go, they will lose interest in signing up for reform programs, potentially crippling a notably viable source of income for your prison. Plus, they increase the Danger level.
+    Prisoners that continue to murder or break the rules (lots of times) should be locked in Supermax. If a Legendary Prisoner joins your prison, lock him in Supermax as SOON AS POSSIBLE and also make sure he cannot escape or murder prisoners easily. For example, (if you have more than 5 Super-Max Prisoners) create a separate wing from all the other prisoners and put a few armed guards as well.
+    To make Protective Custody a viable option, a separate unit of prison must be built for your snitching inmates. One very good strategy to prevent the murder of these prisoners is to built a protective wing where each cell is larger than usual and contains a shower, prayer mat, weight bench, TV, window and telephone. Then, place the inmate in permanent lockdown. This inmate has all need except freedom satisfied and are kept incredibly safe if they have a wall and an armed guard separating them from the general population of the prison. This can also be done with legendary prisoners to prevent them from causing havoc. The only problem is that the prisoners WILL NOT get fed, causing them to get angry.This may make them riot in their cells. **UNLESS! you have Alpha 30 and beyond because guards will deliver food from kitchen to prisoners.**
+    You should keep a few guard in the parole room, since a prisoner that is rejected for parole, might get angry and attack the parole officer and the parole lawyer.
+    Contraband can be shipped in from outside your prison, you can reduce the amount of contraband entering from the outside of your prison by placing the delivery in its own room with a metal detector at the entrance.
+
+    &lt;br>&lt;br>
+    &lt;b>More!&lt;/b>&lt;br>
+    It\'s recommended to take grants at the beginning of the game. They will help fund the prison. Use a grant mod to gain even more capital if you want to expand quicker.
+    Creating storage rooms will help you save money. Because when you dismantle something, it will not be dumped, and you can reuse it later.
+    It used to be that the only thing a Foreman does is research, and once you had researched Cleaning, Grounds Keeping, Prison Labour, and Clone, you could fire the Foreman to save money. However, post Alpha 18, you\'ll need the Foreman to teach inmates Workshop safety and Carpentry skills.
+    Focus on building a Workshop early in the game. A group of low risk security prisoners making plates will be easier to manage than a prison of high security prisoners and you will be spending less on the guard\'s wages, especially since update 30, where only the initial payment between prisoners differs. Also keep the amount of suppression low, so that your prisoners take up the reform programs.
+    You can \'disassemble\' trees and sell them to make quick, easy money. If you don\'t need the money immediately, the wood from the trees can be processed into planks by prisoners working in the workshop and will be worth more. Even further, prisoners trained in carpentry can use the carpenters table to turn the planks into beds, increasing profit even more.
+    You can left click on any staff member and right click a tile to force them to move to that tile.  This is very useful for stopping fights, healing people, detecting drugs, etc. Note that doing this to any guard will remove them from their patrol or station, but another guard will (usually) pick it up after they leave. You can also do this with prisoners, and a guard will come along shortly to escort them to the location you desire.
+    Don\'t be afraid to sell your prison. It\'s likely your first prison is built very haphazardly, with buildings in semi-random, inefficient places, as you were still learning. However, selling your prison means you get to start over from scratch, but you start out with all the money you\'ve earned and invested in your sold prison, allowing you to build with the intention of expanding, knowing how big things can eventually get. You can even make a new save then sell your prison, and you\'ll still be able to go back and play the first prison.
+    Assigning a guard to a security room with monitors will move that guard to a monitor on entering the room and opening the stationed spot again. This will cause all stations to be manned most of the time, as long as you have enough guards.
+    Replace shower time with free time, if prisoners want a shower they can have one and prisoners that don\'t want a shower can do what they like, this avoids jamming all your prisoners in one room where people could riot.
+    Early on, if you have minimum security prisoners it might actually be a benefit if you use riot guards as normal guards early on, and only have 2-3 guards to open doors, and do tasks.
+    Even though the Armed Guards may prevent the prisoners from causing trouble, by suppressing them, the suppressed prisoners may have trouble during the reform programs, because their concentration will be affected by their suppressed status. A good solution, is to keep the armed guards away from the classrooms and make sure that the prisoners spend some time away from the armed guards, before they go to the classroom.
+    A good way to reduce the re-offending chance of a prisoner, and also increase his chance for a parole, is to have him go to the chapel, because the Spiritual Guidance course is easy, and an inmate may pass it more than once, thereby improving his Reform status and decreasing his re-offending chance.
+    If a deadly prisoner is causing you trouble, by killing inmates or staff during fights, you should lock him for the rest of his sentence (permanent punishment) in his cell, and also providing him with some equipment to satisfy his needs. Note that a guard will be sent to bring him food. In case he manages to break out of his cell during a riot, or an escape, you should deal with him using Armed Guards or Guard with tazers, because the regular guards might get killed.
+    Always use Large Water Pipes when connecting cold water pipes to boilers. This gives the maximum travel distance of hot water (59 blocks) versus Small Water Pipes which only grant a maximum of 46 blocks and decrease by 1 for each small pipe between the boiler and the nearest watered large pipe.
+    Adding sinks to the canteen allows cooks to wash trays much closer to the serving tables and reduces travel distance.
+    Typically, the ratio for refrigerators to cookers is 1:2, but having a 1:1, 2:1 or even higher ratio means that food is delivered to your prison half as often. This allows you to check ingredients for contraband much less frequently and catch more of it as it arrives.
+    Once you have a basic prison running, there is a good way to raise money. First you need an accountant and to have researched bank loans. Then, sell all you shares and take a large bank loan which greatly decreases the prison value. This means you can buy back your shares for less money, after which you can repay the bank loan. Of course, the bank loan needs to be of sufficiently large for this to pay off, otherwise you could end up losing money.
+    You can get Boilers to be inside walls by bulldozing (Demolish walls will not work, neither will clear indoor area because the area is still \'Indoors\') a 4x3 rectangle, and then planning a 2x1 foundation in the middle (where the new foundation does not touch other \'indoors\' areas) and before the 2x1 foundation is completed, telling your workmen to build a boiler in the same 2x1 area. The Little 2x1 foundation will form walls where the boiler will go, while the workmen will still place the boiler in the walls.  Afterwards you can fill in the rest of the bulldozed area using more foundations, but be careful not the include the boiler-wall combination in the new foundation, because it will be demolished.
+</string>
+<string name="About">&lt;b>&lt;br>&lt;br>
+    Prison Architect Guide v1.1&lt;/b>&lt;br>
+    Created by Smashed Potato 2016
+    &lt;br>&lt;br>&lt;br>
+    &lt;a href="https://play.google.com/store/apps/developer?id=Smashed%20Potato">Click Here to visit Smashed Potato on Google Play&lt;/a>
+    &lt;br>&lt;br>&lt;br>
+    &lt;a href="http://bbeavis.com/android_privacy_policy.html">Click Here to visit Privacy Policy&lt;/a>
+    &lt;br>&lt;br>&lt;br>
+    Thanks for your support! :-)
+    &lt;br>&lt;br>&lt;br>
+
+
+</string>
+
+ </resources>

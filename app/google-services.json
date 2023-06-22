@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "1076668047625",
+    "firebase_url": "https://guideprisonarchitect.firebaseio.com",
+    "project_id": "guideprisonarchitect",
+    "storage_bucket": "guideprisonarchitect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076668047625:android:6f79d909f4b6d8e7",
+        "android_client_info": {
+          "package_name": "com.smashedpotato.prisonarchitecttips"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076668047625-vse1fmf470elmjucv2huqqoa40u4vvq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smashedpotato.prisonarchitecttips",
+            "certificate_hash": "4ad26edc1b8825e8d6054a626df0c2a647eb68c6"
+          }
+        },
+        {
+          "client_id": "1076668047625-8t1du061nc13s0bo1fnqmfagiapmsbgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuD5jF_aq5rVxPuLAcaZROiL-59MH8OWk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
